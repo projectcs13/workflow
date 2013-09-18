@@ -1,7 +1,8 @@
 Workflow
 ========
 
-Guides and ideas of how we should use Github
+Guides and ideas of how we should use Github.
+Feel free to play around with the demo-repository, following this guide.
 
 Overview
 ========

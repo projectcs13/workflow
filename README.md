@@ -1,4 +1,4 @@
-Workflow
+﻿Workflow
 ========
 
 Guides and ideas of how we should use Github.
@@ -105,9 +105,9 @@ sure that is merges from a SprintX.Y branch to the develop
 branch.
 ![merging pull request](images/bild4.png)
 
-When the branches are merged you should remove the 
+When the branches are merged you should deletethe 
 SprintX.Y branch to keep the repository from getting
 cluttered.
 
-
+![deleting feature branch](images/bild5.png)
 

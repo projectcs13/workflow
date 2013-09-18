@@ -47,14 +47,14 @@ choose only the develop branch and keep clicking next in the following pop-ups.
 
 You will now have the project in the package explorer in eclipse. 
 
-[insert image]
+![git view](images/git.png)
 
 The text within brackets to the right of your project corresponds to [Repository Current_Branch].
 Before you start working, you want to create a new branch for the feature you are implementing.
 
 To do this, right click on your repository in the git view and choose switch to > new branch...
 
-[insert image]
+![create a new branch](images/cool-feature.png)
 
 This is your working branch. For more info of how to use git in your work (commit, add etc.), RTFM ;)
 
@@ -65,7 +65,7 @@ Now your branch is on github and you want someone to review it and merge it with
 Goto to the repository on github and choose pull request > create pull request.
 Make sure the pull request you create concewrns YOUR branch and develop
 
-[insert image]
+![pull requests](images/pullreq.png)
 
 Then click “send pull request”!
 Now you are done!

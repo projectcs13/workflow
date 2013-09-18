@@ -28,3 +28,49 @@ The basic workflow is comprised of the following steps:
 * push to github when the branch is ready for review 
 * create a pull request from branch to develop
 * repeat
+
+
+
+Workflow in eclipse
+===================
+
+The following guide is supposed to explain how we work with the explained workflow in Eclipse.
+You are pressumed to have installed the eGit plugin in eclipse.
+
+It's the beginning of a sprint... Where do I start, you ask?
+Well you want a fresh clone of the develop branch to continue work on.
+In Eclipse, do the following steps:
+
+file > import… > git > projects from git > URI > {the git address}
+
+choose only the develop branch and keep clicking next in the following pop-ups.
+
+You will now have the project in the package explorer in eclipse. 
+
+[insert image]
+
+The text within brackets to the right of your project corresponds to [Repository Current_Branch].
+Before you start working, you want to create a new branch for the feature you are implementing.
+
+To do this, right click on your repository in the git view and choose switch to > new branch...
+
+[insert image]
+
+This is your working branch. For more info of how to use git in your work (commit, add etc.), RTFM ;)
+
+Once you are ready for code review, you need to push your branch up to github.
+To do this you simply right-click on your repository in the git view and choose "push to upstream"
+
+Now your branch is on github and you want someone to review it and merge it with the develop branch.
+Goto to the repository on github and choose pull request > create pull request.
+Make sure the pull request you create concewrns YOUR branch and develop
+
+[insert image]
+
+Then click “send pull request”!
+Now you are done!
+
+
+
+
+

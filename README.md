@@ -105,5 +105,9 @@ sure that is merges from a SprintX.Y branch to the develop
 branch.
 ![merging pull request](images/bild4.png)
 
+When the branches are merged you should remove the 
+SprintX.Y branch to keep the repository from getting
+cluttered.
+
 
 
